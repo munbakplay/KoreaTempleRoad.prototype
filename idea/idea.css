@@ -1,0 +1,88 @@
+* {
+    padding: 0; 
+    margin: 0;
+}
+
+html,body {
+  background: #f1f1f1;
+}
+
+
+ul,ol{
+    list-style:none;
+}
+#nav3 a{
+    text-decoration:none;
+    color:#fff;
+    font-size:1.0rem;
+}
+nav{
+    width:80%;
+    overflow:hidden;
+    height:80px;
+    position: sticky;
+    background-color:#000000;
+   top: 0;
+}
+
+
+
+#nav3 {
+    width: 100%;
+    text-align: right;
+   
+  }
+ 
+  #nav3>a {
+    line-height: 80px;
+    display: block;
+    font-size: 2rem;
+    font-weight: 900;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 30px;
+  }
+  #nav3>select {
+    padding: 0 20px;
+    height: 30px;
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-15px);
+    border: 1px solid #fff;
+    border-radius: 30px;
+  }
+  #nav3>ul {
+    display: inline-block;
+    margin-right: 23%;
+  }
+  #nav3>ul li {
+    float: left;
+    line-height: 5rem;
+    padding: 0 3.4rem;
+
+  }
+
+
+  @keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+.head1 {
+    animation: fadeInUp 1.5s;
+    text-align: center;
+}
+.head1 h1{
+    margin-top: 18%;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
